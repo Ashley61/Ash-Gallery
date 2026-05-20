@@ -34,6 +34,106 @@ const GALLERY_DATA = {
       src: "images/leave.JPG",
       alt: "Leaves in natural light",
       title: "Leaves"
+    },
+    {
+      src: "images/DSC_0037.JPG",
+      alt: "Photograph DSC 0037",
+      title: "DSC 0037"
+    },
+    {
+      src: "images/DSC_0047.JPG",
+      alt: "Photograph DSC 0047",
+      title: "DSC 0047"
+    },
+    {
+      src: "images/DSC_0384.JPG",
+      alt: "Photograph DSC 0384",
+      title: "DSC 0384"
+    },
+    {
+      src: "images/DSC_0421.JPG",
+      alt: "Photograph DSC 0421",
+      title: "DSC 0421"
+    },
+    {
+      src: "images/DSC_0434.JPG",
+      alt: "Photograph DSC 0434",
+      title: "DSC 0434"
+    },
+    {
+      src: "images/DSC_0717.JPG",
+      alt: "Photograph DSC 0717",
+      title: "DSC 0717"
+    },
+    {
+      src: "images/DSC_0730.JPG",
+      alt: "Photograph DSC 0730",
+      title: "DSC 0730"
+    },
+    {
+      src: "images/DSC_1141.JPG",
+      alt: "Photograph DSC 1141",
+      title: "DSC 1141"
+    },
+    {
+      src: "images/DSC_1148.JPG",
+      alt: "Photograph DSC 1148",
+      title: "DSC 1148"
+    },
+    {
+      src: "images/DSC_1164.JPG",
+      alt: "Photograph DSC 1164",
+      title: "DSC 1164"
+    },
+    {
+      src: "images/DSC_1239.JPG",
+      alt: "Photograph DSC 1239",
+      title: "DSC 1239"
+    },
+    {
+      src: "images/DSC_1266.JPG",
+      alt: "Photograph DSC 1266",
+      title: "DSC 1266"
+    },
+    {
+      src: "images/DSC_1270.JPG",
+      alt: "Photograph DSC 1270",
+      title: "DSC 1270"
+    },
+    {
+      src: "images/DSC_1642.JPG",
+      alt: "Photograph DSC 1642",
+      title: "DSC 1642"
+    },
+    {
+      src: "images/DSC_1753.JPG",
+      alt: "Photograph DSC 1753",
+      title: "DSC 1753"
+    },
+    {
+      src: "images/DSC_2195.JPG",
+      alt: "Photograph DSC 2195",
+      title: "DSC 2195"
+    },
+    {
+      src: "images/DSC_2202.JPG",
+      alt: "Photograph DSC 2202",
+      title: "DSC 2202"
+    },
+    {
+      src: "images/DSC_2336.JPG",
+      alt: "Photograph DSC 2336",
+      title: "DSC 2336"
+    },
+    {
+      src: "images/DSC_2644.JPG",
+      alt: "Photograph DSC 2644",
+      title: "DSC 2644"
+    },
+    {
+      src: "images/DSC_3330.JPG",
+      alt: "Photograph DSC 3330",
+      title: "DSC 3330"
     }
   ],
   painting: [
