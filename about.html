@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About the artist">
+  <title>Studio — About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__logo" href="index.html">Studio</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="painting.html">Painting</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="about">
+    <div class="about__inner">
+      <div class="about__image" role="img" aria-label="Artist portrait placeholder"></div>
+      <div class="about__text">
+        <h1>About</h1>
+        <p>A CS graduate turned banking professional, with a quiet love for art.</p>
+        <p>An ISTJ who enjoys solitude, nature, and simple moments.</p>
+        <p>Orange Cat's mom</p>
+        <a class="about__link" href="mailto:hello@example.com">AshleyLiu@outlook.com</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio — photography and painting">
+  <title>Studio — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__logo" href="index.html">Studio</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="painting.html">Painting</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Photography &amp; Painting</p>
+        <h1 class="hero__title" id="hero-heading">Ashley Gallery</h1>
+        <p class="hero__text">Just capturing what I see and feel</p>
+        <a class="hero__cta" href="photography.html">Explore work</a>
+      </div>
+    </section>
+
+    <section class="home-preview" aria-label="Portfolio sections">
+      <div class="home-cards">
+        <a class="home-card" href="photography.html">
+          <span class="home-card__label">Gallery</span>
+          <span class="home-card__title">Photography</span>
+          <span class="home-card__text">Landscapes, portraits, and everyday light.</span>
+        </a>
+        <a class="home-card" href="painting.html">
+          <span class="home-card__label">Gallery</span>
+          <span class="home-card__title">Painting</span>
+          <span class="home-card__text">Oil, acrylic, and mixed media on canvas.</span>
+        </a>
+        <a class="home-card" href="about.html">
+          <span class="home-card__label">Profile</span>
+          <span class="home-card__title">About</span>
+          <span class="home-card__text">Story, process, and how to get in touch.</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>
