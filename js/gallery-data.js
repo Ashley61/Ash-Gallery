@@ -36,16 +36,6 @@ const GALLERY_DATA = {
       title: "Leaves"
     },
     {
-      src: "images/DSC_0037.JPG",
-      alt: "Photograph DSC 0037",
-      title: "DSC 0037"
-    },
-    {
-      src: "images/DSC_0047.JPG",
-      alt: "Photograph DSC 0047",
-      title: "DSC 0047"
-    },
-    {
       src: "images/DSC_0384.JPG",
       alt: "Photograph DSC 0384",
       title: "DSC 0384"
@@ -59,16 +49,6 @@ const GALLERY_DATA = {
       src: "images/DSC_0434.JPG",
       alt: "Photograph DSC 0434",
       title: "DSC 0434"
-    },
-    {
-      src: "images/DSC_0717.JPG",
-      alt: "Photograph DSC 0717",
-      title: "DSC 0717"
-    },
-    {
-      src: "images/DSC_0730.JPG",
-      alt: "Photograph DSC 0730",
-      title: "DSC 0730"
     },
     {
       src: "images/DSC_1141.JPG",
